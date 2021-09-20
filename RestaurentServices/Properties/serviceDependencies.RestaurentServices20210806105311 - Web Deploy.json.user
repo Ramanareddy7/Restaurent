@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-08-11T04:25:50.7320138Z"
+    },
+    "storage1": {
+      "restored": true,
+      "restoreTime": "2021-08-13T06:02:58.1435269Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "3e10edd7-2433-47e6-ae83-851619eb2a79"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Ariqt-Internal"
+    },
+    "storage1.resourceGroupName": {
+      "Name": "storage1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Demo-Ramana"
+    },
+    "storage1.subscriptionId": {
+      "Name": "storage1.subscriptionId",
+      "Type": "subscription",
+      "Value": "3e10edd7-2433-47e6-ae83-851619eb2a79"
+    }
+  }
+}

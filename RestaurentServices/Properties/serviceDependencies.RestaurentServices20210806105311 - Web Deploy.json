@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/ariqtinternal/databases/ariqtinternal",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionString:DefaultConnection"
+    },
+    "storage1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/restaurentstoragesccount",
+      "type": "storage.azure",
+      "connectionId": "DefaultEndpointsProtocol=https;AccountName=restaurentstoragesccount;AccountKey=4jdgry0uPaptWalRREWDXwB1Lt4YbavBFc3aXJRopyhw+TCZQQYvpQvnhB+b0y88Sk8SYerXzzrAa89vJzTIXg==;EndpointSuffix=core.windows.net"
+    }
+  }
+}

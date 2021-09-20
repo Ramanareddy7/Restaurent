@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.9.1" />
+    <PackageReference Include="Azure.Storage.Files.Shares" Version="12.1.0" />
+    <PackageReference Include="Azure.Storage.Queues" Version="12.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureAD.UI" Version="5.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0-preview.6.21352.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0-preview.6.21352.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0-preview.6.21352.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0-preview.6.21352.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Azure" Version="1.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.0-preview.6.21362.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils" Version="6.0.0-preview.6.21362.1" />
+    <PackageReference Include="MindFusion.Diagramming" Version="6.7.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
